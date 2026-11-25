@@ -1,0 +1,36 @@
+# Dependencies & build output
+node_modules/
+dist/
+dist-ssr/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local environment & caches
+.env
+.env.*
+!.env.example
+.vite/
+*.tsbuildinfo
+
+# Temporary test & media capture artifacts
+tmp/
+*.tmp
+test-results/
+playwright-report/
+screenshots/
+*.mp4
+*.webm
